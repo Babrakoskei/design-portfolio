@@ -7,6 +7,7 @@ import Churpy from '../assets/churpyproduct.png';
 import Booking from '../assets/booking.png';
 import Churpyweb from '../assets/churpylogo.png';
 import Law from '../assets/law.jpg';
+import Cover from '../assets/Cover.png'
 
 
 
@@ -26,7 +27,7 @@ const Work = () => {
 
             {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${Brandlogs})` }}
+            style={{ backgroundImage: `url(${Cover})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
@@ -35,11 +36,11 @@ const Work = () => {
                 Figma Design
               </span>
               <div className='pt-8 text-center'>
-                <a href='https://www.figma.com/proto/tdM4xy8NTjVhTFf4M61tKK/MY-WORK?node-id=1%3A705&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A705' target='_blank'>
+                <a href='https://www.figma.com/proto/1km08z2PDEGMpLLYkd3Pyb/Allure-Beauty-Shop?node-id=0%3A21&starting-point-node-id=0%3A21&scaling=scale-down' target='_blank'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
-                  <p>A social e-commerce and gifting platform</p>
+                  <p>E-commerce beauty shop</p>
                 </a>
           
               </div>
